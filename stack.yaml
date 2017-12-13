@@ -67,7 +67,7 @@ system-ghc: true
 #compiler-check: newer
 
 ghc-options:
-    '$locals': '-fPIC'
+    '$locals': '-fPIC -optl-pthread'
     '$everything': '-fPIC'
 
 nix:
